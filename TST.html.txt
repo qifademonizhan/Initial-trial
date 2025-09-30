@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>버튼 카운터</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>버튼 카운터</h1>
+
+    <div class="counter" aria-live="polite">
+      <span id="count" class="count">0</span>
+    </div>
+
+    <div class="actions">
+      <button id="inc" type="button" aria-label="숫자 올리기">+1 올리기</button>
+      <button id="reset" type="button" aria-label="초기화">초기화</button>
+    </div>
+
+    <p class="hint">새로고침해도 값이 유지돼요 (localStorage 사용)</p>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
